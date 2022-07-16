@@ -1,20 +1,20 @@
 <template>
   <v-app>
     <AppHeader/>
-      <v-content>
+      <v-main>
           <router-view/>
-      </v-content>
-    <AppFooter/>
+      </v-main>
+    <!-- <AppFooter/> -->
   </v-app>
 </template>
 <script>
 import AppHeader from './components/AppHeader.vue'
-import AppFooter from './components/AppFooter.vue'
+// import AppFooter from './components/AppFooter.vue'
 
 export default {
   components: {
-    AppHeader,
-    AppFooter
+    AppHeader
+    // AppFooter
   }
 }
 </script>

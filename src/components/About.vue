@@ -1,7 +1,19 @@
 <template>
   <section class="about">
     <AppBackgroundHolder :title="title"/>
-    <h2>プロフィール</h2>
+    <v-row justify="center" align-content="center" >
+      <v-col cols="auto">
+      <v-card width="1000" height="400">
+        <h1 align="center">COMPANY</h1>
+        <v-data-table
+        :headers="headers"
+        :items="desserts"
+        hide-default-header
+        hide-default-footer
+        />
+      </v-card>
+      </v-col>
+    </v-row>
   </section>
 </template>
 <script>
@@ -9,7 +21,41 @@ import AppBackgroundHolder from './AppBackgroundHolder.vue'
 export default {
   data () {
     return {
-      title: 'About'
+      title: 'About',
+      desserts: [
+        {
+          name: '会社名',
+          context: '株式会社エムケッツ'
+        },
+        {
+          name: '代表取締役',
+          context: '小林将也'
+        },
+        {
+          name: '取締役',
+          context: '山口和眞'
+        },
+        {
+          name: '設立',
+          context: 'YYYY-MM-DD'
+        },
+        {
+          name: '所在地',
+          context: '東京都○○区'
+        },
+        {
+          name: '事業内容',
+          context: 'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト'
+        }
+      ],
+      headers: [
+        {
+          text: '',
+          align: 'start',
+          value: 'name'
+        },
+        { text: '', value: 'context' }
+      ]
     }
   },
   components: {
@@ -17,3 +63,9 @@ export default {
   }
 }
 </script>
+<style lang="scss" scoped>
+  .about {
+  background-color: #ECEFF1;
+  height:750px;
+}
+</style>
