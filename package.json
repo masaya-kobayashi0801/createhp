@@ -12,7 +12,8 @@
     "node-sass": "^4.14.1",
     "vue": "^2.6.11",
     "vue-router": "^3.5.3",
-    "vuetify": "^2.4.0"
+    "vuetify": "^2.4.0",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -22,11 +23,14 @@
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.5.1",
     "eslint": "^6.7.2",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.6.1",
     "sass": "~1.32.0",
     "sass-loader": "^8.0.2",
     "vue-cli-plugin-vuetify": "~2.4.3",

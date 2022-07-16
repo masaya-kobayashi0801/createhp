@@ -7,34 +7,34 @@
   </section>
 </template>
 <script>
-import AppBackgroundHolder from "./AppBackgroundHolder.vue";
+import AppBackgroundHolder from './AppBackgroundHolder.vue'
 export default {
-  data() {
+  data () {
     return {
-      title: "access",
-      map: "",
-      myLatLng: { lat: -34.397, lng: 150.644 },
-    };
+      title: 'access',
+      map: '',
+      myLatLng: { lat: -34.397, lng: 150.644 }
+    }
   },
-  mounted() {
-    let script = document.createElement("script");
+  mounted () {
+    const script = document.createElement('script')
     script.src =
-      "https://maps.googleapis.com/maps/api/js?key=AIzaSyDIGGnKiKC9ahvrdYwq1l-S26MFSZzxqsY&callback=initMap";
-    script.async = true;
-    document.head.appendChild(script);
+      'https://maps.googleapis.com/maps/api/js?key=AIzaSyDIGGnKiKC9ahvrdYwq1l-S26MFSZzxqsY&callback=initMap'
+    script.async = true
+    document.head.appendChild(script)
 
     window.initMap = () => {
       this.map = new window.google.maps.Map(this.$refs.map, {
         center: this.myLatLng,
-        zoom: 8,
-      });
-      new window.google.maps.Marker({ position: this.myLatLng, map: this.map });
-    };
+        zoom: 8
+      })
+      window.google.maps.Marker({ position: this.myLatLng, map: this.map })
+    }
   },
 
   components: {
     // ローカル環境で利用する
-    AppBackgroundHolder,
-  },
-};
+    AppBackgroundHolder
+  }
+}
 </script>

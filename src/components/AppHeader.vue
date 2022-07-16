@@ -5,7 +5,7 @@
         <!--v-app-bar-nav-iconがクリックされたら、drawerという変数へtrueという値を代入するという意味-->
         <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon
         ><!--v-app-va-nav-iconタグ(ハンバーガーメニューのアイコンを表示できる。)を追加、クリックイベントを追加(@clickでjsの実行が可能になる、scriptタグ内にデータ定義-->
-        <v-toolbar-title>MyPortfolioSite</v-toolbar-title>
+        <v-toolbar-title>One Creative</v-toolbar-title>
         <v-tabs dark>
           <v-tab
             v-for="(menuItem, index) in menuItems" :key="index" :to="menuItem.url"
