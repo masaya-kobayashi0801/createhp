@@ -3,30 +3,30 @@
     <div class="section__title">
       <div class="section__title-text">01. About Me</div>
     </div>
-    <v-container
-      ><!--サイトコンテンツを中央寄せして、自動余白設定-->
-      <v-row class="home-about__contents"
-        ><!--行の定義をして、自動余白設定-->
-        <v-col md="5" class="home-about__contents-img"
-          ><!--列の定義をして自動余白設定-->
+    <v-container>  <!--サイトコンテンツを中央寄せして、自動余白設定-->
+      <v-row class="home-about__contents"><!--行の定義をして、自動余白設定-->
+        <v-col md="5" class="home-about__contents-img"><!--列の定義をして自動余白設定-->
           <img
             src="../styles/common/AdobeStock_185362582.png"
             alt="about"
             class="img-fluid"
           /><!--列に表示する画像指定-->
         </v-col>
-        <v-col md="5" class="home-about__contents-text"
-          ><!--md(ノートPCのブレイクポイント5カラムに設定)-->
+        <v-col md="5" class="home-about__contents-text" align="center"><!--md(ノートPCのブレイクポイント5カラムに設定)-->
           <p>
-            企画・デザイン・開発を通して顧客と共に成長を目指しますデジタルテクノロジーは、「究極の合理性」を教えてくれました。
-            これから先も、テクノロジーは世界を変えていくことでしょう。
-            けれど、世界中の情報にアクセスでき、世界中の人が繋がっても、心の問題や社会の問題が減ったようにはみえません。
-            人間は、感情で行動する生き物だからです。
-            今まさに、合理性と感情の関係の見直しを求められる時代になりつつあります。
-            合理性を超えて、好き、と言える機会を増やし、より良い世界を創ることができるのは、やはり人間自身です。
-            わたしたちは、テクノロジーと人間の最適な関係を増やす挑戦を続けます。
+           XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+           XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+           XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+           XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+           XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+           XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+           XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+           XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+           XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+           XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+           XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+           XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
           </p>
-          <p></p>
         </v-col>
       </v-row>
       <AppButton
