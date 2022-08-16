@@ -6,11 +6,11 @@
       <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
     </div>
     <div id="coding">
-      <h2>コーディング</h2>
+      <h2>デザイン</h2>
       <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
     </div>
     <div id="design">
-      <h2>デザイン</h2>
+      <h2>コーディング</h2>
       <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
     </div>
   </section>

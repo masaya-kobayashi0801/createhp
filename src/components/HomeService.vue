@@ -12,26 +12,23 @@
               <h3>ディレクション</h3>
             </div>
             <div class="home-service__card-img">
-              <img class="icon--service" src="./art.jpeg" alt="ディレクション" />
+              <img
+                class="icon--service"
+                src="../styles/common/AdobeStock_336843058.jpeg"
+                alt="ディレクション"
+              />
             </div>
             <div class="home-service__card-text">
               <p>
-                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-              </p>
-            </div>
-          </v-card>
-        </v-col>
-        <v-col md="3">
-          <v-card to="/service#coding" hover>
-            <div class="home-service__card-title">
-              <h3>コーディング</h3>
-            </div>
-            <div class="home-service__card-img">
-              <img class="icon--service" src="./art.jpeg" alt="コーディング" />
-            </div>
-            <div class="home-service__card-text">
-              <p>
-                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
               </p>
             </div>
           </v-card>
@@ -42,11 +39,50 @@
               <h3>デザイン</h3>
             </div>
             <div class="home-service__card-img">
-              <img class="icon--service" src="./art.jpeg" alt="デザイン" />
+              <img
+                class="icon--service"
+                src="../styles/common/AdobeStock_300168494.jpeg"
+                alt="デザイン"
+              />
             </div>
             <div class="home-service__card-text">
               <p>
-                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+              </p>
+            </div>
+          </v-card>
+        </v-col>
+        <v-col md="3">
+          <v-card to="/service#coding" hover>
+            <div class="home-service__card-title">
+              <h3>コーディング</h3>
+            </div>
+            <div class="home-service__card-img">
+              <img
+                class="icon--service"
+                src="../styles/common/AdobeStock_314836279.jpeg"
+                alt="コーディング"
+              />
+            </div>
+            <div class="home-service__card-text">
+              <p>
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXX
               </p>
             </div>
           </v-card>

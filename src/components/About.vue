@@ -1,7 +1,7 @@
 <template>
   <section class="about">
     <AppBackgroundHolder :title="title"/>
-    <v-row justify="center" align-content="center" >
+    <v-row justify="center" align-content="center" class="mt-1" >
       <v-col cols="auto">
       <v-card width="1000" height="400">
         <h1 align="center">COMPANY</h1>
@@ -25,15 +25,15 @@ export default {
       desserts: [
         {
           name: '会社名',
-          context: '株式会社エムケッツ'
+          context: '株式会社●●●●'
         },
         {
           name: '代表取締役',
-          context: '小林将也'
+          context: '鈴木一郎'
         },
         {
           name: '取締役',
-          context: '山口和眞'
+          context: '佐藤二郎'
         },
         {
           name: '設立',

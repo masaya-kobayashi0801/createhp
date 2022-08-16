@@ -2,7 +2,7 @@
   <section class="access">
     <AppBackgroundHolder :title="title" />
     <h2>アクセス</h2>
-    <h3>ここに地図を表示させる。</h3>
+    <!-- <h3>ここに地図を表示させる。</h3> -->
     <div ref="map" style="height: 500px; width: 800px"></div>
   </section>
 </template>
