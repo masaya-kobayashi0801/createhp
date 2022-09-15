@@ -1,7 +1,7 @@
 <template>
   <section class="home-about">
     <div class="section__title">
-      <div class="section__title-text">01. About Me</div>
+      <div class="section__title-text">1. About Me</div>
     </div>
     <v-container>  <!--サイトコンテンツを中央寄せして、自動余白設定-->
       <v-row class="home-about__contents"><!--行の定義をして、自動余白設定-->
